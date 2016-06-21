@@ -5,4 +5,3 @@ RUN mkdir -p /app
 WORKDIR /app
 ADD app.rb /app
 
-CMD ["ruby","/app/app.rb"]
